@@ -1,5 +1,7 @@
 import { Mail, FolderOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
+
 
 export function HeroSection() {
   return (
@@ -34,8 +36,7 @@ export function HeroSection() {
 
         <div className="flex justify-center md:justify-end">
           <div className="relative w-full max-w-md aspect-square bg-[#FDB927] border-4 border-black rounded-3xl overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-            <img
-              src="https://media.licdn.com/dms/image/v2/D5603AQGOcGxgtMGLSg/profile-displayphoto-scale_200_200/B56ZiP9_bxG4AY-/0/1754762052136?e=1766620800&v=beta&t=i4rUOGj7nkYAf3YXYH8r7C-JW5iCYVJ9a7ZNM6rRr3w"
+           <img src="https://i.ibb.co/JFGzzy5S/IMG-4469.jpg" 
               alt="Mayank Saini - Web Developer"
               className="w-full h-full object-cover"
             />
