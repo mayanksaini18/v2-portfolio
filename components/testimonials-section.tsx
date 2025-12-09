@@ -60,8 +60,7 @@ export function TestimonialsSection() {
 
             <div className="absolute -right-20 top-1/2 -translate-y-1/2 w-[440px] h-[440px] rounded-full overflow-hidden hidden lg:block">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D4D35AQEjgBEECoAM2w/profile-framedphoto-shrink_200_200/B4DZqVbTcyIAAc-/0/1763443554369?e=1765904400&v=beta&t=pl22jhFw6kjYkT3greoMds3K9tcpl9EebENrbB-s9Aw"
-                alt="Client testimonial"
+                src=""
                 fill
                 className="object-cover"
               />
