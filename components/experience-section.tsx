@@ -1,6 +1,7 @@
 import { FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export function ExperienceSection() {
   const experiences = [
@@ -52,10 +53,12 @@ export function ExperienceSection() {
               From founding my own venture to collaborating with cross-functional teams, I've built a diverse skill set
               in full-stack development and product thinking.
             </p>
-            <Button className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
-              <FileText className="w-5 h-5" />
-              See full resume
-            </Button>
+            <Link href="/Mayank_Saini_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-white text-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
+                <FileText className="w-5 h-5" />
+                See full resume
+              </Button>
+            </Link>
           </div>
 
           <div className="space-y-6">
