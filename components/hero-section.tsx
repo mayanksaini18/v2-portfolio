@@ -1,6 +1,7 @@
 import { Mail, FolderOpen } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 
 export function HeroSection() {
@@ -20,17 +21,21 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-7 pt-4">
-            <Button className="bg-[#0B0B0B] text-white hover:bg-black/90 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
-              <Mail className="w-5 h-5" />
-              Get in touch
-            </Button>
-            <Button
-              variant="outline"
-              className="bg-white border-[3px] border-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]"
-            >
-              <FolderOpen className="w-5 h-5" />
-              View portfolio
-            </Button>
+            <Link href="mailto:mayanksaini782@gmail.com">
+              <Button className="bg-[#0B0B0B] text-white hover:bg-black/90 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
+                <Mail className="w-5 h-5" />
+                Get in touch
+              </Button>
+            </Link>
+            <Link href="#portfolio">
+              <Button
+                variant="outline"
+                className="bg-white border-[3px] border-black hover:bg-gray-50 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]"
+              >
+                <FolderOpen className="w-5 h-5" />
+                View portfolio
+              </Button>
+            </Link>
           </div>
         </div>
 
