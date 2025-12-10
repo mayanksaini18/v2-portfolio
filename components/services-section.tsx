@@ -1,6 +1,7 @@
 import { Mail } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from 'next/link'
 
 export function ServicesSection() {
  const services = [
@@ -88,10 +89,12 @@ export function ServicesSection() {
                Have a project in mind or need help bringing your idea to life?
   I’m always open to discussing new opportunities and collaborations.
               </p>
+              <Link href="mailto:mayanksaini782@gmail.com">
               <Button className="bg-black text-white hover:bg-black/90 rounded-[16px] px-12 py-6 font-medium text-[18px] w-full max-w-[340px] h-[64px]">
                 <Mail className="w-5 h-5 mr-2" />
                 Get in touch
               </Button>
+              </Link>
             </div>
           </div>
         </div>
