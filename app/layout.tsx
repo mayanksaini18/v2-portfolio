@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" style={{ fontSize: "15px" }}>
+    <html lang="en" style={{ fontSize: "12px" }}>
       <body>{children}</body>
     </html>
   )
