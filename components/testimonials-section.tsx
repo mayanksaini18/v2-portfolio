@@ -35,7 +35,7 @@ export function TestimonialsSection() {
                 />
               </div>
 
-              <div className="md:max-w-[65%]">
+              <div className="">
                 <p className="text-sm md:text-base lg:text-lg mb-6 leading-relaxed">
                   Working with Mayank was a smooth and highly productive
                   experience. He understood our brand vision quickly and
@@ -58,13 +58,7 @@ export function TestimonialsSection() {
               </div>
             </div>
 
-            <div className="absolute -right-20 top-1/2 -translate-y-1/2 w-[440px] h-[440px] rounded-full overflow-hidden hidden lg:block">
-              <Image
-                src=""
-                fill
-                className="object-cover"
-              />
-            </div>
+           
           </div>
         </div>
       </div>
