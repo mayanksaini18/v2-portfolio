@@ -32,16 +32,16 @@ export function Navigation() {
           >
             Portfolio
           </a>
-          <button className="flex items-center gap-1 text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
+          {/* <button className="flex items-center gap-1 text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
             Pages
             <ChevronDown className="w-4 h-4" />
-          </button>
-          <a
+          </button> */}
+          {/* <a
             href="#cart"
             className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity"
           >
             Cart(0)
-          </a>
+          </a> */}
         </div>
 
         <Button className= "hidden md:flex bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">
